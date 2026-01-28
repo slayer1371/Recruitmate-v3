@@ -28,6 +28,7 @@ export default function Hero(props : HeroProps) {
             muted
             loop
             playsInline
+            preload="metadata"
           >
             <source src={props.video} type="video/mp4" />
             Your browser does not support the video tag.
