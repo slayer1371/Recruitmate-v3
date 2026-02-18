@@ -16,14 +16,20 @@ const nextConfig: NextConfig = {
         pathname: "/**",
       },
       {
+        protocol: "https",
+        hostname: "utulsa.edu",
+        port: "",
+        pathname: "/**",
+      },
+      {
         protocol: "https", 
-        hostname: "upload.wikimedia.org", 
+        hostname: "www.uc.edu", 
         port: "", 
         pathname: "/**"
       },
       {
         protocol: "https", 
-        hostname: "www.uc.edu", 
+        hostname: "encrypted-tbn0.gstatic.com", 
         port: "", 
         pathname: "/**"
       }
