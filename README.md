@@ -163,9 +163,6 @@ recruitmate-v3/
 │   ├── mrinal.png
 │   └── university-logos/        # University images
 │
-├── data/
-│   └── conferenceData.ts        # University data structure
-│
 ├── types/
 │   └── hero.ts                  # TypeScript interfaces
 │
